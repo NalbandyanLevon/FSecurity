@@ -1,0 +1,25 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  .dark {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    gap: 5vh;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
